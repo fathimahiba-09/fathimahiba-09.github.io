@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 25px;
+  color: rgb(107, 69, 8);
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-weight: 600px;
+}
