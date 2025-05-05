@@ -139,3 +139,28 @@ body {
   display: flex;
   gap: 8px;
 }
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+@media (max width 768) {
+  width: 10px;
+  padding: 10px;
+}
